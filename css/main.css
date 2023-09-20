@@ -240,3 +240,37 @@ h2 {
   border-right: none;
   border-bottom: none;
 }
+
+/*Footer CSS */
+
+footer {
+  background: var(--dark);
+  padding: 20px 20px 112px;
+}
+
+footer h2 {
+  color: hsla(0, 0%, 19%, 1);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  color: var(--light);
+}
+
+.links h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.links a {
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+}
