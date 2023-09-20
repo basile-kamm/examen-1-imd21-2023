@@ -44,15 +44,16 @@ video {
   vertical-align: text-top;
 }
 
-/* Website CSS */
-
 header,
 h2,
 h3,
 .cta-programme,
-.quote-container {
+.quote-container,
+.artist {
   text-transform: uppercase;
 }
+
+/* Header CSS */
 
 .header-container {
   background: var(--purple);
@@ -86,4 +87,55 @@ nav a {
   color: var(--light);
   text-decoration: none;
   font-size: 18px;
+}
+
+/* Programme CSS */
+
+.programme {
+  padding: 60px 20px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.article-programme-container {
+  display: flex;
+  gap: 10px;
+}
+
+.article-programme-text {
+  border: 1px solid var(--dark);
+  height: 168px;
+  border-top: none;
+  margin-bottom: 45px;
+}
+
+.article-programme img {
+  border-bottom: 7px solid var(--purple);
+}
+
+.date {
+  font-size: 15px;
+  line-height: 15px;
+  padding: 20px 0;
+}
+
+.artist {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.cta-programme {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  color: var(--purple);
+  background: var(--dark);
+  padding: 20px 30px;
+  margin-bottom: 60px;
 }
