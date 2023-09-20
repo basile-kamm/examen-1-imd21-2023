@@ -186,6 +186,16 @@ h2 {
   overflow: hidden;
 }
 
+.one-month {
+  background-image: url(../img/one_month_to_go\ 1.jpg);
+  background-position: center;
+}
+
+.if-walls {
+  background-image: url(../img/if-walls-could-talk.jpg);
+  background-position: center;
+}
+
 .img-container img {
   height: 100%;
   width: 100%;
