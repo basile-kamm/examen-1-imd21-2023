@@ -159,3 +159,47 @@ h2 {
 .subqote {
   font-size: 15px;
 }
+
+/* News CSS */
+
+.news {
+  background: #f4ede8;
+  padding: 60px 20px;
+}
+
+.article-news-container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.article-news {
+  width: 189px;
+  border-radius: 20px;
+  background: var(--light);
+}
+
+.img-container {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 259px;
+  overflow: hidden;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.article-news p {
+  padding: 20px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.article-news p span {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
