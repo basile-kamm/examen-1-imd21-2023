@@ -31,6 +31,7 @@ body {
   width: 428px;
   text-align: center;
   font-family: "Noto Serif", serif;
+  margin: auto;
 }
 
 a {
