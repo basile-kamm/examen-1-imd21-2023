@@ -64,6 +64,7 @@ h1 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 50px;
   line-height: 50px;
+  margin-bottom: 10px;
 }
 
 h1 span {
@@ -99,6 +100,7 @@ h2 {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 30px;
+  font-weight: 300;
 }
 
 .article-programme-container {
@@ -110,7 +112,7 @@ h2 {
   border: 1px solid var(--dark);
   height: 168px;
   border-top: none;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 .article-programme img {
@@ -130,6 +132,11 @@ h2 {
   margin-bottom: 20px;
 }
 
+.country {
+  font-size: 15px;
+  line-height: 15px;
+}
+
 .cta-programme {
   font-family: "Nunito Sans", sans-serif;
   font-style: italic;
@@ -137,7 +144,9 @@ h2 {
   color: var(--purple);
   background: var(--dark);
   padding: 20px 30px;
-  margin-bottom: 60px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
 }
 
 /* Quote CSS */
@@ -158,6 +167,7 @@ h2 {
 
 .subqote {
   font-size: 15px;
+  line-height: 15px;
 }
 
 /* News CSS */
@@ -194,11 +204,6 @@ h2 {
 .if-walls {
   background-image: url(../img/if-walls-could-talk.jpg);
   background-position: center;
-}
-
-.img-container img {
-  height: 100%;
-  width: 100%;
 }
 
 .article-news p {
@@ -246,9 +251,12 @@ h2 {
   padding: 20px 10px;
 }
 
-.opportunitie:first-of-type {
-  border-right: none;
-  border-bottom: none;
+.opportunitie.right {
+  border-left: none;
+}
+
+.opportunitie.under {
+  border-top: none;
 }
 
 /*Footer CSS */
@@ -262,6 +270,7 @@ footer h2 {
   color: hsla(0, 0%, 19%, 1);
   font-family: "Nunito Sans", sans-serif;
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .links-container {
