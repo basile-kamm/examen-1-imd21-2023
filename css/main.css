@@ -139,3 +139,23 @@ h2 {
   padding: 20px 30px;
   margin-bottom: 60px;
 }
+
+/* Quote CSS */
+
+.quote-container {
+  background: var(--green);
+  padding: 20px;
+}
+
+.quote {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.subqote {
+  font-size: 15px;
+}
