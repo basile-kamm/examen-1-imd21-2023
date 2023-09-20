@@ -30,6 +30,7 @@ body {
   text-rendering: optimizeLegibility;
   width: 428px;
   text-align: center;
+  font-family: "Noto Serif", serif;
 }
 
 a {
@@ -45,6 +46,44 @@ video {
 
 /* Website CSS */
 
-header {
-  background: ;
+header,
+h2,
+h3,
+.cta-programme,
+.quote-container {
+  text-transform: uppercase;
+}
+
+.header-container {
+  background: var(--purple);
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h1 span {
+  font-family: "Noto Serif", serif;
+}
+
+header p {
+  font-size: 20px;
+  color: var(--light);
+  line-height: 24px;
+}
+
+nav {
+  background: var(--dark);
+  padding: 20px 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: var(--light);
+  text-decoration: none;
+  font-size: 18px;
 }
